@@ -2,7 +2,7 @@
 
 ## About
 
-This project was a final year undergraduate university assessment, for the subject _Online documentary_. It was completed as a group project, with four members.
+This project was a final year undergraduate university assessment, for the subject _Online documentary_. It was completed as a group project, with four members, in October 2019.
 
 The documentary was created using [Tumult Hype](https://tumult.com/hype/), a HTML5 creation app for macOS.
 
@@ -25,15 +25,15 @@ Designer & interviewer
 * final bug fixes, testing and corrections to Hype project
 
 ## Resources used
-* Blood plasma bag, labelled 'AB', filled with theatrical blood by National Blood Transfusion Service - https://collection.sciencemuseumgroup.org.uk/objects/co525902 
-* Advent Pro font by Andreas Kalpakidis - https://fonts.google.com/specimen/Advent+Pro
-* Cute font by TypoDesign Lab. Inc - https://fonts.google.com/specimen/Cute+Font
-* Heartbeat, Regular, Single, 01-01, LOOP.wav by InspectorJ - https://freesound.org/people/InspectorJ/sounds/485076
-* Useful web icons collection by Freepik - https://www.freepik.com/free-vector/useful-web-icons-collection_573292.htm#page=1&query=sound%20icon&position=0 
-* Urban Lullaby by Jimmy Fontanez/Doug Maxwell - https://www.youtube.com/audiolibrary
-* Luke’s Rage by DJ Williams - https://www.youtube.com/audiolibrary
-* Timeless by Slenderbeats - https://www.youtube.com/audiolibrary
-* Blood Donation Icon Pack by Freepik https://www.flaticon.com/packs/blood-donation-13 
-* Brain free icon by Freepik https://www.flaticon.com/free-icon/brain_932377 
-* Home free icon by Freepik https://www.flaticon.com/free-icon/home_263115 
-* Speech Bubble free icon by Freepik https://www.flaticon.com/free-icon/speech-bubble_1078011 
+* [Blood plasma bag, labelled 'AB', filled with theatrical blood by National Blood Transfusion Service](https://collection.sciencemuseumgroup.org.uk/objects/co525902)
+* [Advent Pro font by Andreas Kalpakidis](https://fonts.google.com/specimen/Advent+Pro)
+* [Cute font by TypoDesign Lab. Inc](https://fonts.google.com/specimen/Cute+Font)
+* [Heartbeat, Regular, Single, 01-01, LOOP.wav by InspectorJ](https://freesound.org/people/InspectorJ/sounds/485076)
+* [Useful web icons collection by Freepik](https://www.freepik.com/free-vector/useful-web-icons-collection_573292.htm#page=1&query=sound%20icon&position=0)
+* [Urban Lullaby by Jimmy Fontanez/Doug Maxwell](https://www.youtube.com/audiolibrary)
+* [Luke’s Rage by DJ Williams](https://www.youtube.com/audiolibrary)
+* [Timeless by Slenderbeats](https://www.youtube.com/audiolibrary)
+* [Blood Donation Icon Pack by Freepik](https://www.flaticon.com/packs/blood-donation-13)
+* [Brain free icon by Freepik](https://www.flaticon.com/free-icon/brain_932377)
+* [Home free icon by Freepik](https://www.flaticon.com/free-icon/home_263115)
+* [Speech Bubble free icon by Freepik](https://www.flaticon.com/free-icon/speech-bubble_1078011)
