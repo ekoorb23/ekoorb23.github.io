@@ -9,11 +9,11 @@ This portfolio includes:
 4. [Maternity troubleshooting modules](/Maternity)
 
 ## Experience Design strategy
-* [Beery's Brewing co](/Beery) - customer service analysis and improvements for a small Australian brewery
+* [Beery's Brewing co](/beery) - customer service analysis and improvements for a small Australian brewery
 
 ## Mobile app prototypes
-* [Snake Spotter app](/Snakespotter) - snake identification and help for amateurs
-* [Fuel Saver app](fuel) - easily track your car's fuel consumption
+* [Snake Spotter app](/snakespotter) - snake identification and help for amateurs
+* [Fuel Saver app](fuelapp) - easily track your car's fuel consumption
 
 ## Mini documentary
 * [RedSolution](redsolution) - a blood donation story
