@@ -1,0 +1,8 @@
+theme: minima
+
+title: Digital portfolio
+author: Brooke Ottley
+description: Graphic designer, UX designer, eLearning developer
+
+header_pages:
+  - index.md
