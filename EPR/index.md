@@ -1,8 +1,8 @@
-# Familiarisation course #
+# Familiarisation course
 
 *An Articulate Storyline 360 eLearning course*
 
-## About ##
+## About
 
 A demonstration-only course, explaining different sections of an electronic patient record.
 Scroll down to view the course contents.
