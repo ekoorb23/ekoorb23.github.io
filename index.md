@@ -6,7 +6,7 @@ Scroll down to view the course contents.
 ## Course content
 Please view these videos on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not suited to smaller mobile device screens.
 
-Module [01 Introduction (7 mins)](/EPR/01/story.html) contains a visual explanation of how this course works.
+Module [01 Introduction (7 mins)](../EPR/01/story.html) contains a visual explanation of how this course works.
 
 Completion of each module is reported to the LMS once the "summary" slide of each module is reached.
 
