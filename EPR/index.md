@@ -21,7 +21,7 @@ Completion of each module is reported to the LMS once the "summary" slide of eac
 
 ## Integration with LMS
 
-This application is provided as SCORM (Sharable Content Object Reference Model) module. It can be used with any LMS (Learning Management System) that supports version SCORM 1.2. SCORM modules are delivered as ZIP package.
+This application is provided as [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) module. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports version SCORM 1.2. SCORM modules are delivered as ZIP package.
 
 Follow your LMS instructions on how to upload a SCORM module. Usually the ZIP is uploaded and a few additional settings are set.
 
