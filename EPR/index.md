@@ -7,6 +7,8 @@
 A demonstration-only course, explaining different sections of an electronic patient record.
 Scroll down to view the course contents.
 
+![Familiarisation course preview](../assets/images/EPRsnapshot.png)
+
 ## Course content
 
 Please view these modules on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not suited to smaller mobile device screens.
