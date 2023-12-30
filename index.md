@@ -9,7 +9,7 @@ This portfolio includes:
 4. [Maternity troubleshooting modules](Maternity)
 
 ## Experience Design strategy
-* [Beery's Brewing co](/beery) - customer service analysis and improvements for a small Australian brewery
+* [Beery's Brewing co](beery) - customer service analysis and improvements for a small Australian brewery
 
 ## Mobile app prototypes
 * [Snake Spotter app](snakespotter) - snake identification and help for amateurs
