@@ -25,9 +25,9 @@ When run from a LMS, the application sends back these data:
 * `cmi.core.score.max` – 100
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
 ## Credits
-This eLearning course uses sound effects from FreeSound:
-* “Slow typing sound effect” by bonesawmgraw published in the public domain,
-* “Mouse Clicks, Mouse Double Clicks” by ShanVpererea published in the public domain,
+This eLearning course uses sound effects from [FreeSound](https://freesound.org/):
+* [Slow typing sound effect](https://freesound.org/people/bonesawmgraw/sounds/572977/) by bonesawmgraw published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
+* [Mouse Clicks, Mouse Double Clicks](https://freesound.org/people/ShanVpererea/sounds/542080/) by ShanVpererea published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
 
 and graphics from Vecteezy:
 
