@@ -1,0 +1,439 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<!--set viewport for mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fuel $aver</title>
+<link href="themes/themes/FuelApp.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="themes/themes/jquery.mobile.icons.min.css" />
+<link href="jquery-mobile/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" type="text/css" />
+<!--stylesheet for datepicker wrapper-->
+<link href="https://rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" rel="stylesheet" type="text/css" />
+<!--jQuery-->
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<!--jQuery mobile-->
+<script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+<!--third party datepicker script-->
+<script src="https://rawgithub.com/jquery/jquery-ui/1-10-stable/ui/jquery.ui.datepicker.js"></script>
+<!--datepicker wrapper to improve UX on mobile devices-->
+<script src="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.js"></script>
+<!--script to change content of statistics page when device is rotated-->
+<script>
+$(document).on("pagecreate",function(event){
+  $(window).on("orientationchange",function(){
+    if(window.orientation == 0) //detect portrait orientation
+    {
+      $("#instruction").show();
+	  $("#graph").hide();
+	  $("#statsTable").show();
+    }
+    else //landscape orientation
+    {
+      $("#instruction").hide();
+	  $("#graph").show();
+	  $("#statsTable").hide();
+    }
+  });                   
+});
+</script>
+</head>
+<!--CSS formatting overrides-->
+<style>
+p {
+	font-weight:300;
+	color:#404040;
+}
+h1 {
+	font-weight:500;
+	color:#730d03;
+	
+}
+h2 {
+	font-weight:400;
+	color:#000;
+}
+.ui-navbar{
+	width:320px;
+	list-style-type:none;
+	margin:0px auto 0px auto;
+	padding:0px;
+}
+.ui-navbar li {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	padding-bottom:15px;
+}
+.ui-header a.ui-link {
+	margin-top:10px;
+}
+/*centre align footer navigation*/
+.ui-footer .ui-navbar {
+	width:650px;
+	margin:0px auto 0px auto;
+}
+/*remove padding from footer navigation*/
+.ui-footer .ui-navbar li {
+	padding:0px;
+}
+/*remove red from footer navigation buttons*/
+.ui-footer .ui-navbar a.ui-link {
+	border-radius:15px;
+	background-color: transparent;
+	border: 0px;
+	color: #000;
+	text-shadow: none;
+}
+/*make footer navigation li smaller*/
+.ui-footer .ui-navbar li {
+	width:75px;
+	height:75px;
+}
+/*format tables in UI*/
+th {
+	background-color: #CC021A;
+	color:#fff;
+	border:1px solid #FF0224;
+	text-shadow: 0px 1px 0px #000;
+}
+/*fix opacity of table headings*/
+.ui-datepicker-calendar th span {
+	opacity:1;
+}
+/*format table rows & cells*/
+table {
+	border-collapse: collapse;
+}
+tr {
+	background-color:#fff;
+	text-align:center;
+	text-shadow: none;
+	font-weight:300;
+}
+td, th {
+	border: 1px solid #FF0224;
+	padding:5px;
+}
+.ui-datepicker td a {
+	font-weight:300;
+}
+/*fix formatting of date picker on Add refuel page*/
+.ui-datepicker-inline {
+	width:220px;
+}
+/*format currency column in tables*/
+.currency {
+	text-align:right;
+}
+/*format statistics table body rows as left aligned*/
+.leftAlign {
+	text-align:left;
+}
+<!--round UI corners on Statistics page-->
+.custom-corners .ui-bar, .ui-bar-a {
+  -webkit-border-top-left-radius: inherit;
+  border-top-left-radius: inherit;
+  -webkit-border-top-right-radius: inherit;
+  border-top-right-radius: inherit;
+  background-color:#e9e9e9;
+  border-color: #7F7F7F;
+}
+.custom-corners .ui-body, ui-body-a {
+  border-top-width: 0;
+  -webkit-border-bottom-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  -webkit-border-bottom-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+</style>
+<!--retrieve custom font from Google Fonts API-->
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:500,400,300' rel='stylesheet' type='text/css'>
+</head> 
+<body> 
+
+<div data-role="page" id="home">
+	<div data-role="header">
+		<h1><img src="images/fuel$aver-logo.png" width="140" height="60" alt="Fuel $aver logo"></h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="navbar">
+			<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="75" height="75" alt="Add refuel icon"><br>Add refuel</a></li>
+            <li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="75" height="75" alt="Statistics icon"><br>Statistics</a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="75" height="75" alt="Fuel records icon"><br>Fuel records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="75" height="75" alt="Settings icon"><br>Settings</a></li>
+		</ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4><a href="http://www.fuelsaver.com.au">www.fuelsaver.com.au</a></h4>
+	</div>
+</div>
+<!--start Add refuel section-->
+<div data-role="page" id="add">
+	<div data-role="header" data-add-back-btn="true" data-position="fixed">
+    	<a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+		<h1><img src="images/fuel$aver-logo-small.png" width="100" height="43" alt="Fuel $aver logo - small"><br>Add refuel</h1>
+        <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext">Settings</a>
+	</div>
+	<div data-role="content">
+	  <div data-role="fieldcontain">
+	    <select name="selectmenu" id="selectvehicle">
+	      <option value="option1">Toyota Corolla CA89LK</option>
+	      <option value="option2">Suzuki Swift CA16TY</option>
+        </select>
+        <select name="selectmenu" id="selectbrand">
+	      <option value="option1" disabled="disabled" selected="selected">Brand*</option>
+          <option value="option2">BP</option>
+	      <option value="option3">Caltex</option>
+          <option value="option4">Puma/Gull</option>
+          <option value="option5">Shell</option>
+          <option value="option6">United</option>
+        </select>
+        <select name="selectmenu" id="selectoctane">
+	      <option value="option1" disabled="disabled" selected="selected">Octane rating*</option>
+          <option value="option2">E10</option>
+	      <option value="option3">Regular (91/92)</option>
+          <option value="option4">95</option>
+          <option value="option5">98</option>
+          <option value="option6">Diesel</option>
+          <option value="option7">LPG</option>
+        </select>
+        <div data-role="fieldcontain">
+          <label for="textinput">Volume* (L)</label><br>
+          <input type="number" pattern="[0-9]*" name="volume" class="fieldThenUnit" value="" min="2" step="0.1" />
+          </div>
+          <div data-role="fieldcontain">
+              <label for="textinput">Total cost ($)</label><br>
+              <input type="number" pattern="[0-9]*" name="cost" id="cost" value="" min="2" step="0.05" />
+          </div>
+          <div data-role="fieldcontain">
+              <label for="textinput">Odometer* (km)</label><br>
+              <input type="number" pattern="[0-9]*" name="odo" id="odo" value="" min="2" step="1" />
+          </div>
+          <div data-role="fieldcontain">
+              <label for="textinput">Date* (dd-mm-yy)<p></label>
+              <input type="text" id="date-input" data-inline="true" data-role="date" data-date-format="dd-mm-yy">
+          </div>
+      </div>
+      <a href="#" data-role="button"  data-icon="star">Submit</a>
+    </div>
+	<div data-role="footer" data-position="fixed">
+    <!--start internal navigation-->
+		<ul data-role="navbar">
+			<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="40" height="40" alt="Add refuel icon - small"><br>Add<br>refuel</a></li>
+			<li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="40" height="40" alt="Statistics icon - small"><br>Statistics<br> </a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="40" height="40" alt="Fuel records icon - small"><br>Fuel<br>records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="40" height="40" alt="Settings icon - small"><br>Settings<br> </a></li>
+		</ul>
+	</div>
+</div>
+<!--end Add refuel section-->
+<!--start Statistics section-->
+<div data-role="page" id="stats">
+	<div data-role="header" data-position="fixed">
+    	<a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+		<h1><img src="images/fuel$aver-logo-small.png" width="100" height="43" alt="Fuel $aver logo - small"><br>Statistics</h1>
+        <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext">Settings</a>
+	</div>
+	<div data-role="content">
+		<div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h2>Current fuel economy for</h2>
+            </div>
+            <div class="ui-body ui-body-a">
+                <p>Toyota Corolla CA89LK</p>
+            </div>
+		</div>
+    	<p id="instruction" style="display:block; font-style: italic;">Note: Rotate device to see graph</p>
+        <!--PNG graphic representing graph, which would be generated with a combination of javascripts & databases-->
+        <img src="images/Fuel-economy-graph.png" width="100%" id="graph"  style="display: none;">
+		<table width="100%" border="0" padding="0px" id="statsTable">
+            <tr>
+                <th scope="col">Brand</th>
+                <th scope="col">Octane</th>
+                <th scope="col">$/100km</th>
+            </tr>
+            <tr>
+                <td class="leftAlign">Caltex</td>
+                <td class="leftAlign">Regular</td>
+                <td class="currency">$10.63</td>
+            </tr>
+            <tr>
+                <td class="leftAlign">United</td>
+                <td class="leftAlign">Regular</td>
+                <td class="currency">$11.18</td>
+            </tr>
+            <tr>
+                <td class="leftAlign">Shell</td>
+                <td class="leftAlign">Regular</td>
+                <td class="currency">$11.26</td>
+            </tr>
+            <tr>
+                <td class="leftAlign">United</td>
+                <td class="leftAlign">E10</td>
+                <td class="currency">$11.30</td>
+            </tr>
+            <tr>
+                <td class="leftAlign">BP</td>
+                <td class="leftAlign">95</td>
+                <td class="currency">$11.48</td>
+            </tr>
+            <tr>
+                <td class="leftAlign">BP</td>
+                <td class="leftAlign">Regular</td>
+                <td class="currency">$11.57</td>
+            </tr>
+		</table>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<ul data-role="navbar">
+        	<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="40" height="40" alt="Add refuel icon - small"><br>Add refuel</a></li>
+			<li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="40" height="40" alt="Statistics icon - small"><br>Statistics</a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="40" height="40" alt="Fuel records icon - small"><br>Fuel records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="40" height="40" alt="Settings icon - small"><br>Settings</a></li>
+		</ul>
+	</div>
+</div>
+<!--end Statistics section-->
+<!--start Fuel records section-->
+<div data-role="page" id="records">
+	<div data-role="header" data-position="fixed">
+    	<a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+		<h1><img src="images/fuel$aver-logo-small.png" width="100" height="43" alt="Fuel $aver logo - small"><br>Fuel records</h1>
+        <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext">Settings</a>
+	</div>
+	<div data-role="content">
+    	<div data-role="fieldcontain">
+            <select name="selectmenu" id="selectvehicle">
+              <option value="option1">Toyota Corolla CA89LK</option>
+              <option value="option2">Suzuki Swift CA16TY</option>
+            </select>
+        </div>
+        <ul data-role="listview">
+            <li><a href="#">11-Jun-2015<br>
+              <p style="color:#fff">Caltex 95<br>
+              Ludmilla<br>
+              510km<br>
+              9.10L/100km</p></a></li>
+            <li><a href="#">30-May-2015<br>
+              <p style="color:#fff">United E10<br>
+              Nightcliff<br>
+              517km<br>
+              8.87L/100km</p></a></li>
+            <li><a href="#">02-May-2015<br>
+              <p style="color:#fff">BP Regular<br>
+              Darwin City<br>
+              502km<br>
+              8.46L/100km</p></a></li>
+        </ul>
+	</div>
+    <div data-role="footer" data-position="fixed">
+		<ul data-role="navbar">
+        	<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="40" height="40" alt="Add refuel icon - small"><br>Add refuel</a></li>
+			<li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="40" height="40" alt="Statistics icon - small"><br>Statistics</a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="40" height="40" alt="Fuel records icon - small"><br>Fuel records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="40" height="40" alt="Settings icon - small"><br>Settings</a></li>
+		</ul>
+	</div>
+</div>
+<!--end Fuel records section-->
+<!--start Settings section-->
+<div data-role="page" id="settings">
+	<div data-role="header" data-position="fixed">
+        <a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+        <h1><img src="images/fuel$aver-logo-small.png" width="100" height="43" alt="Fuel $aver logo - small"><br>Settings</h1>
+        <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext">Settings</a>
+	</div>
+	<div data-role="content">
+	  <div data-role="collapsible-set">
+	    <div data-role="collapsible">
+	      <h3>Region preferences</h3>
+	      <div data-role="fieldcontain">
+	        <label for="selectmenu" class="select">Currency</label>
+	        <select name="selectmenu" id="currency">
+	          <option value="option1">$ AUD</option>
+	          <option value="option2">$ USD</option>
+	          <option value="option3">$ NZD</option>
+              <option value="option4">£ GBP</option>
+              <option value="option5">€ EUR</option>
+              <option value="option6">¥ JPY</option>
+            </select>
+          </div>
+	      <div data-role="fieldcontain">
+	        <label for="selectmenu" class="select">Units</label>
+	        <select name="selectmenu" id="units">
+	          <option value="option1">Metric</option>
+	          <option value="option2">Imperial</option>
+            </select>
+          </div>
+          <div data-role="fieldcontain">
+	        <label for="selectmenu" class="select">Date</label>
+	        <select name="selectmenu" id="date">
+	          <option value="option1">DD-MM-YY</option>
+	          <option value="option2">MM-DD-YY</option>
+              <option value="option3">DD-MMM-YY</option>
+              <option value="option4">MMM-DD-YY</option>
+              <option value="option5">DD-MMM-YYYY</option>
+              <option value="option6">MMM-DD-YYYY</option>
+            </select>
+          </div>
+        </div>
+	    <div data-role="collapsible" data-collapsed="true">
+	      <h3>Vehicles</h3>
+	      <a href="#addVehicle" data-role="button"  data-icon="star">Add new vehicle</a>
+          <h4>Current vehicles</h4>
+          <ul data-role="listview">
+            <li><a href="#">Toyota Corolla CA89LK</a></li>
+            <li><a href="#">Suzuki Swift CA16TY</a></li>
+        </ul>
+        </div>
+      </div>	
+	</div>
+    <div data-role="footer" data-position="fixed">
+		<ul data-role="navbar">
+        	<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="40" height="40" alt="Add refuel icon - small"><br>Add refuel</a></li>
+			<li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="40" height="40" alt="Statistics icon - small"><br>Statistics</a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="40" height="40" alt="Fuel records icon - small"><br>Fuel records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="40" height="40" alt="Settings icon - small"><br>Settings</a></li>
+		</ul>
+	</div>
+</div>
+<!--end Settings section-->
+<!--start Add new vehicle section-->
+<div data-role="page" id="addVehicle">
+	<div data-role="header" data-position="fixed">
+    	<a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+		<h1><img src="images/fuel$aver-logo-small.png" width="100" height="43" alt="Fuel $aver logo - small"><br>Add new vehicle</h1>
+        <a href="#settings" data-role="button" data-icon="gear" data-iconpos="notext">Settings</a>
+	</div>
+	<div data-role="content">
+	  <div data-role="fieldcontain">
+	    <label for="textinput">Make<br>
+        <span style="font-size: 0.75em">e.g. Toyota</span></label>
+	    <input type="text" name="Make" id="Make" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+	    <label for="textinput">Model<br>
+        <span style="font-size: 0.75em">e.g. Corolla</span></label>
+	    <input type="text" name="Model" id="Model" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+	    <label for="textinput">N/plate<br>
+        <span style="font-size: 0.75em">e.g. CA89LK</span></label>
+	    <input type="text" name="numberplate" id="numberplate" value=""  />
+      </div>
+	<a href="#" data-role="button"  data-icon="star">Submit</a>
+    </div>
+	<div data-role="footer" data-position="fixed">
+		<ul data-role="navbar">
+        	<li><a href="#add"><img src="images/icons/icon-addRefuel.png" width="40" height="40" alt="Add refuel icon - small"><br>Add refuel</a></li>
+			<li><a href="#stats"><img src="images/icons/icon-Statistics.png" width="40" height="40" alt="Statistics icon - small"><br>Statistics</a></li>
+			<li><a href="#records"><img src="images/icons/icon-records.png" width="40" height="40" alt="Fuel records icon - small"><br>Fuel records</a></li>
+            <li><a href="#settings"><img src="images/icons/icon-settings.png" width="40" height="40" alt="Settings icon - small"><br>Settings</a></li>
+		</ul>
+	</div>
+</div>
+<!--end Add new vehicle section-->
+
+</body>
+</html>
