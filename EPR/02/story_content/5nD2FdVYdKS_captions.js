@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.68.28820.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:01.968%0D%0ATo%20reset%20the%20zoom%20in%20Acacia,%20%0D%0A%0D%0A00:00:01.969%20--%3E%2000:00:03.423%0D%0Ahold%20the%20Ctrl%20key,%20%0D%0A%0D%0A"}')

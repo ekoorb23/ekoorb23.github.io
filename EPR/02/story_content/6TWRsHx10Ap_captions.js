@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.68.28887.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.204%0D%0AThis%20video%20will%20show%20you%20how%20to%20log%20into%20Acacia%20Read-only%20EPR,%20and%0D%0A%0D%0A"}')

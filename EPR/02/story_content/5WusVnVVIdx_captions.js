@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.68.28820.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.716%0D%0AAcacia%20is%20accessed%20using%20your%20Northern%20Territory%20Government%20staff%20username%20and%20password%0D%0A%0D%0A"}')
