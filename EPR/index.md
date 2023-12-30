@@ -13,6 +13,7 @@ Completion of each module is reported to the LMS once the "summary" slide of eac
 1. [Introduction (7 mins)](/EPR/01/story.html)
 2. [Using the chartbook (13 mins)](/EPR/02/story.html)
 3. [Navigation and patient search (4 mins)](/EPR/03/story.html)
+
 ## Integration with LMS
 This application is provided as SCORM (Sharable Content Object Reference Model) module. It can be used with any LMS (Learning Management System) that supports version SCORM 1.2. SCORM modules are delivered as ZIP package.
 
