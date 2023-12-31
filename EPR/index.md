@@ -1,17 +1,18 @@
-# Familiarisation course
+# Read-only EPR Familiarisation eLearning course
 
-*An Articulate Storyline 360 eLearning course*
+*An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 
 ## About
 
-A demonstration-only course, explaining different sections of an electronic patient record.
+A demonstration-only course, explaining different sections of a read-only electronic patient record (EPR).
+
 Scroll down to view the course contents.
 
 ![Familiarisation course preview](../assets/images/EPRsnapshot.png)
 
 ## Course content
 
-Please view these modules on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not suited to smaller mobile device screens.
+Please view these modules on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not well suited to smaller mobile device screens.
 
 Module [01 Introduction (7 mins)](/01/story.html) contains a visual explanation of how this course works.
 
@@ -23,11 +24,9 @@ Completion of each module is reported to the LMS once the "summary" slide of eac
 
 ## Integration with LMS
 
-This application is provided as [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) module. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports version SCORM 1.2. SCORM modules are delivered as ZIP package.
+Each module is a [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) package. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports version SCORM 1.2. SCORM modules are exported from [Articulate Storyline 360](https://www.articulate.com/360/storyline/) in ZIP format.
 
-Follow your LMS instructions on how to upload a SCORM module. Usually the ZIP is uploaded and a few additional settings are set.
-
-When run from a LMS, the application sends back these data:
+When run from an LMS, the SCORM reports these data to the LMS:
 
 * `cmi.core.score.raw` – a number from 0 to 100 for the overall score
 * `cmi.core.score.min` – 0
