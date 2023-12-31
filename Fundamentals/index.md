@@ -6,9 +6,9 @@
 
 This course provides an understanding of basic features and functionality of a web-based clinical system named Acacia.
 
-Scroll down to view the course contents.
+Click the image below to watch a 15 second preview of this course. Or, scroll down to view the course contents.
 
-https://github.com/ekoorb23/portfolio/assets/155214346/3077075a-5255-49e4-85f5-49c2c71e5a1c
+![[Fundamentals preview](FundamentalsSnapshot.jpg)](https://youtu.be/TuEfrrXG_Dk)
 
 ## Course content
 
