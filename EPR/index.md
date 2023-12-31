@@ -24,7 +24,7 @@ Completion of each module is reported to the LMS once the "summary" slide of eac
 
 ## Integration with LMS
 
-Each module is a [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) package. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports version SCORM 1.2. SCORM modules are exported from [Articulate Storyline 360](https://www.articulate.com/360/storyline/) in ZIP format.
+Each module is a [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) package. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports SCORM version 1.2. SCORM modules are exported from [Articulate Storyline 360](https://www.articulate.com/360/storyline/) in ZIP format.
 
 When run from an LMS, the SCORM reports these data to the LMS:
 
