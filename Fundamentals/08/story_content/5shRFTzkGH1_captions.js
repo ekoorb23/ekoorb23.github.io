@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.64.27845.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.484%0D%0AFor%20example,%20here%20we%20are%20selecting%20the%20name%20of%20the%20%E2%80%9CAcacia%20Fundamentals%E2%80%9D%20course,%20to%20review%20it.%0D%0A%0D%0A"}')
