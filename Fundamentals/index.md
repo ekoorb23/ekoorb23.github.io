@@ -1,26 +1,31 @@
-# Read-only EPR Familiarisation eLearning course
+# Fundamentals eLearning course
 
 *An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 
 ## About
 
-A demonstration-only course, explaining different sections of a read-only electronic patient record (EPR).
+This course provides an understanding of basic features and functionality of a web-based clinical system named Acacia.
 
 Scroll down to view the course contents.
 
-![Familiarisation course preview](../assets/images/EPRsnapshot.png)
+https://github.com/ekoorb23/portfolio/assets/155214346/3077075a-5255-49e4-85f5-49c2c71e5a1c
 
 ## Course content
 
 Please view these modules on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not well suited to smaller mobile device screens.
 
-Module [01 Introduction (7 mins)](/01/story.html) contains a visual explanation of how this course works.
+All modules are interactive, requiring eLearners to click or type on screen, to complete the module.
 
 Completion of each module is reported to the LMS once the "summary" slide of each module is reached.
 
-1. [Introduction (7 mins)](/01/story.html)
-2. [Using the chartbook (13 mins)](/02/story.html)
-3. [Navigation and patient search (4 mins)](/03/story.html)
+1. [01 Important information for users of Acacia](/01/story.html)
+2. [02 Acacia basics](/02/story.html)
+3. [03 Viewing patient lists, floorplans, allergies and alerts](/03/story.html)
+4. [04 Menus and workflows](/04/story.html)
+5. [05 Mandatory fields, hyperlinks and verify, apply and update information](/05/story.html)
+6. [06 Expanding and hiding information, episode types and linked episodes](/06/story.html)
+7. [07 Nested trees, shortcuts for recording date and time, and lookup fields](/07/story.html)
+8. [08 Conclusion and next steps (3 mins)](/08/story.html)
 
 ## Integration with LMS
 
@@ -36,14 +41,9 @@ When run from an LMS, the SCORM reports these data to the LMS:
 ## Credits
 
 This eLearning course uses sound effects from [FreeSound](https://freesound.org/):
-* [Slow typing sound effect](https://freesound.org/people/bonesawmgraw/sounds/572977/) by bonesawmgraw published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
-* [Mouse Clicks, Mouse Double Clicks](https://freesound.org/people/ShanVpererea/sounds/542080/) by ShanVpererea published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
+* [mac typing](https://freesound.org/people/ThatMisfit/sounds/413462/) by ThatMisfit published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
-and graphics from [Vecteezy](https://www.vecteezy.com/):
+and short animations from [Pixabay](https://pixabay.com/):
 
-* [Clock Icon Vectors by Vecteezy](https://www.vecteezy.com/free-vector/clock-icon),
-* [Heart Vectors by Vecteezy](https://www.vecteezy.com/free-vector/heart),
-* [Reminder Vectors by Vecteezy](https://www.vecteezy.com/free-vector/reminder),
-* [Xray Vectors by Vecteezy](https://www.vecteezy.com/free-vector/xray),
-* [Microscope Vectors by Vecteezy](https://www.vecteezy.com/free-vector/microscope),
-* [Document Vectors by Vecteezy](https://www.vecteezy.com/free-vector/document)
+* [Operation Room Hospital](https://pixabay.com/videos/operation-room-hospital-surgery-71017/) by New_Make_Spot under the [Simplified Pixabay License](https://pixabay.com/service/license/),
+* [Evaluation Analysis Magnifying](https://pixabay.com/videos/evaluation-analysis-magnifying-glass-69480) by mohamed_hassan under the [Simplified Pixabay License](https://pixabay.com/service/license/)
