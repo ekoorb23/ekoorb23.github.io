@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.56.26219.0%0D%0A%0D%0A00:00:00.096%20--%3E%2000:00:03.928%0D%0AThe%20breadcrumbs%20feature%20can%20be%20found%20in%20the%20top%20left%20corner%20of%20Acacia.%0D%0A%0D%0A"}')
