@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.612%0D%0AHere\u0027s%20how%20to%20reset%20your%20web%20browser%20zoom%20settings,%20now%20that%20you%20have%20finished%20watching%20this%20video.%0D%0A%0D%0A"}')

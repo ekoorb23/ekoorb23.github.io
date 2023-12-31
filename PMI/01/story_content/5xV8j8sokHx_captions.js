@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.484%0D%0AThen,%20hold%20the%20%22Control%22%20key,%20and%20tap%20the%20%22plus%22%20key%20a%20few%20times,%20to%20zoom%20in.%0D%0A%0D%0A"}')

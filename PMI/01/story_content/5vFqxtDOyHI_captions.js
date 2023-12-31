@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.512%0D%0AIt%20will%20then%20show%20you%20how%20to%20create%20new%20patient%20records%20and%20manage%20patient%20demographic%20data.%0D%0A%0D%0A"}')
