@@ -7,7 +7,7 @@ The Snake Spotter mobile app endeavours to ease users’ fear towards wild snake
 
 This was a group assessment as part of my Bachelor of Communication (Digital and Social Media) completed in 2019 at the University of Technology Sydney. Our team of three students produced this prototype based on my original concept over a period of 5 weeks.
 
-## [► View the live app demo ◄](demo/index.html)
+## [► View the live app demo ◄](demo/frame.html)
 
 ## Project timeline
 

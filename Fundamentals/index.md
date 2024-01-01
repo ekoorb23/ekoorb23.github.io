@@ -8,7 +8,7 @@ This course provides an understanding of basic features and functionality of a w
 
 Click the image below to watch a 15 second preview of this course. Or, scroll down to view the course contents.
 
-![[Fundamentals preview](FundamentalsSnapshot.jpg)](https://youtu.be/TuEfrrXG_Dk)
+[![Fundamentals preview](../assets/images/FundamentalsSnapshot.jpg)](https://youtu.be/TuEfrrXG_Dk)
 
 ## Course content
 
