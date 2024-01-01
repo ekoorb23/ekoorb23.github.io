@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.496%0D%0AFor%20example,%20if%20Cynthia%20is%20no%20longer%20a%20member%20of%20the%20Australian%20Defence%20Force.%0D%0A%0D%0A"}')
