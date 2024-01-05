@@ -52,7 +52,7 @@ This course is narrated using Microsoft Azure text-to-speech service. This is a 
 This eLearning course uses sound effects from [FreeSound](https://freesound.org/):
 
 * [Slow typing sound effect](https://freesound.org/people/bonesawmgraw/sounds/572977/) by bonesawmgraw published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
-* [Pop sound]([https://freesound.org/people/bonesawmgraw/sounds/572977/](https://freesound.org/people/deraj/sounds/202230) by deraj published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
+* [Pop sound](https://freesound.org/people/deraj/sounds/202230) by deraj published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
 * [Mouse Clicks, Mouse Double Clicks](https://freesound.org/people/ShanVpererea/sounds/542080/) by ShanVpererea published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
 and graphics from [Open Clip Art]([https://www.vecteezy.com/](https://openclipart.org/):
