@@ -1,4 +1,6 @@
-# Read-only EPR Familiarisation eLearning course
+---
+title: Read-only EPR Familiarisation eLearning course
+---
 
 *An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 
