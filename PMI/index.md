@@ -1,4 +1,6 @@
-# Patient Master Index course
+---
+Patient Master Index course
+---
 
 *An Articulate Storyline 360 eLearning course*
 
