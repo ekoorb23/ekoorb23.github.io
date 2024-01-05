@@ -1,4 +1,6 @@
-# Patient Master Index course
+---
+title: Patient Master Index course
+---
 
 *An Articulate Storyline 360 eLearning course*
 
@@ -42,12 +44,17 @@ When run from a LMS, the application sends back these data:
 * `cmi.core.score.max` – 100
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
 
+## Neural text-to-speech narration
+This course is narrated using Microsoft Azure text-to-speech service. This is a natural sounding, neural text to-to-speech tool which allows pronunciation to be customised and corrected using the international phonetic alphabet (IPA). Learn how I've been using the IPA to correct the pronunciation of Aboriginal nations and languages, in this 30 minute demo video:
+
+[![Microsoft Azure text-to-speech demonstration](../assets/images/AzureTTSDemo.jpg)](https://youtu.be/_KpkvwN8sdU?si=r5r8dFDCI376SGcd)
+
 ## Credits
 
 This eLearning course uses sound effects from [FreeSound](https://freesound.org/):
 
 * [Slow typing sound effect](https://freesound.org/people/bonesawmgraw/sounds/572977/) by bonesawmgraw published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
-* [Pop sound]([https://freesound.org/people/bonesawmgraw/sounds/572977/](https://freesound.org/people/deraj/sounds/202230) by deraj published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
+* [Pop sound](https://freesound.org/people/deraj/sounds/202230) by deraj published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/),
 * [Mouse Clicks, Mouse Double Clicks](https://freesound.org/people/ShanVpererea/sounds/542080/) by ShanVpererea published in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
 and graphics from [Open Clip Art]([https://www.vecteezy.com/](https://openclipart.org/):

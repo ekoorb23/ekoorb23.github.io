@@ -1,4 +1,6 @@
-# Read-only EPR Familiarisation eLearning course
+---
+title: Read-only EPR Familiarisation eLearning course
+---
 
 *An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 
@@ -32,6 +34,11 @@ When run from an LMS, the SCORM reports these data to the LMS:
 * `cmi.core.score.min` – 0
 * `cmi.core.score.max` – 100
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
+
+## Neural text-to-speech narration
+This course is narrated using Microsoft Azure text-to-speech service. This is a natural sounding, neural text to-to-speech tool which allows pronunciation to be customised and corrected using the international phonetic alphabet (IPA). Learn how I've been using the IPA to correct the pronunciation of Aboriginal nations and languages, in this 30 minute demo video:
+
+[![Microsoft Azure text-to-speech demonstration](../assets/images/AzureTTSDemo.jpg)](https://youtu.be/_KpkvwN8sdU?si=r5r8dFDCI376SGcd)
 
 ## Credits
 

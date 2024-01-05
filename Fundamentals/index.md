@@ -1,4 +1,6 @@
-# Fundamentals eLearning course
+---
+title: Fundamentals eLearning course
+---
 
 *An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 

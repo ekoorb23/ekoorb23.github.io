@@ -1,4 +1,6 @@
-# Brooke Ottley's digital portfolio
+---
+title: Brooke Ottley's digital portfolio
+---
 
 This portfolio includes:
 
