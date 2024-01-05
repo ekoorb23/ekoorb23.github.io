@@ -2,7 +2,7 @@
 title: Maternity troubleshooting modules 
 ---
 
-*Two interactive [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning modules.*
+*Two branching [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning modules.*
 
 ## About
 
@@ -15,8 +15,6 @@ Scroll down to view the troubleshooting modules.
 ## Course content
 
 Please view these modules on a laptop, desktop or tablet device. The resolution of the screen recorded modules is fixed and not well suited to smaller mobile device screens.
-
-All modules are interactive, requiring eLearners to click or type on screen, to complete the module.
 
 Completion of each module is reported to the LMS once the "summary" slide of each module is reached.
 
