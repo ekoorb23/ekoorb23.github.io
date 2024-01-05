@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.63.27628.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:02.040%0D%0AThis%20alert%20now%20has%20a%20grey%20block,%20%0D%0A%0D%0A00:00:02.041%20--%3E%2000:00:04.193%0D%0Ato%20indicate%20that%20it%20is%20inactive.%0D%0A%0D%0A"}')
