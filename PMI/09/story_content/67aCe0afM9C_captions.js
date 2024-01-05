@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:05.404%0D%0AThen,%20select%20the%20Find%20button%20to%20search%20for%20all%20GPs%20with%20%E2%80%9Cjohn%E2%80%9D%20in%20their%20surname.%0D%0A%0D%0A"}')

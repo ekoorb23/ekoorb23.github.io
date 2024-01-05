@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.65.28121.0%0D%0A%0D%0A00:00:00.000%20--%3E%2000:00:04.652%0D%0ACynthia%20says%20she%20has%20been%20seeing%20a%20local%20GP%20named%20%E2%80%9CDavid%20Johnston%E2%80%9D.%20%0D%0A%0D%0A"}')
