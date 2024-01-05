@@ -1,3 +1,8 @@
+---
+title: Home
+description: welcome to my website
+---
+
 # Brooke Ottley's digital portfolio
 
 This portfolio includes:
