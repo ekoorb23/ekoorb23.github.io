@@ -1,4 +1,6 @@
-# Snake Spotter mobile app prototype
+---
+Snake Spotter mobile app prototype
+---
 
 ![Cover photo](images/Snake-Spotter-title.jpg)
 
