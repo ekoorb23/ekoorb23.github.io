@@ -1,4 +1,6 @@
-# Experience Design Strategy
+---
+Experience Design Strategy
+---
 
 ## About
 This was a university project in which I researched, designed and developed a detailed user experience strategic plan and set of support materials for a local brewery. I undertook client and user research using user experience (UX) research methods and methodologies, identified pain points in the existing experience, and researched competitors. I developed a strategy including a set of UX materials such as user personas, scenarios and a redesigned user journey and user experience.
