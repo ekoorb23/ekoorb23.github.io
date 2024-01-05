@@ -9,6 +9,12 @@ The hardcopy of this book was originally published in 2014. I was tasked with cr
 
 ![ebook mockup](resources/Nexus-5-mockup.jpg)
 
-## [View as PDF](resources/indigenous-kids-schooling-nt.pdf)
+### [View as PDF](resources/indigenous-kids-schooling-nt.pdf)
 
-## [Download as EPUB](resources/indigenous-kids-schooling-nt.pdf)
+### [Download as EPUB](resources/indigenous-kids-schooling-nt.pdf)
+
+## Demonstration video
+
+Click below to watch a short demonstration video.
+
+[![ebook demonstration](resources/demoStill.jpg)](https://vimeo.com/180543488?share=copy)
