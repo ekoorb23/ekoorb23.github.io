@@ -1,5 +1,5 @@
 ---
-Experience Design Strategy
+title: Experience Design Strategy
 ---
 
 ## About
