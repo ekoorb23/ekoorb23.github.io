@@ -1,5 +1,5 @@
 ---
-Patient Master Index course
+title: Patient Master Index course
 ---
 
 *An Articulate Storyline 360 eLearning course*
