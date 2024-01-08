@@ -37,11 +37,8 @@ Completion of each module is reported to the LMS once the "summary" slide of eac
 
 This application is provided as [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/) (Sharable Content Object Reference Model) module. It can be used with any [LMS](https://en.wikipedia.org/wiki/Learning_management_system) (Learning Management System) that supports version SCORM 1.2. SCORM modules are delivered as ZIP package.
 
-When run from a LMS, the application sends back these data:
+When run from an LMS, the SCORM reports these data to the LMS:
 
-* `cmi.core.score.raw` – a number from 0 to 100 for the overall score
-* `cmi.core.score.min` – 0
-* `cmi.core.score.max` – 100
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
 
 ## Neural text-to-speech narration
