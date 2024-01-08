@@ -30,9 +30,6 @@ Each module is a [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-over
 
 When run from an LMS, the SCORM reports these data to the LMS:
 
-* `cmi.core.score.raw` – a number from 0 to 100 for the overall score
-* `cmi.core.score.min` – 0
-* `cmi.core.score.max` – 100
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
 
 ## Neural text-to-speech narration
