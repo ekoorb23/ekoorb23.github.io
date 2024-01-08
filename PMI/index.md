@@ -2,7 +2,7 @@
 title: Patient Master Index course
 ---
 
-*An Articulate Storyline 360 eLearning course*
+*An [Articulate Storyline 360](https://www.articulate.com/360/storyline/) eLearning course.*
 
 ## About
 
