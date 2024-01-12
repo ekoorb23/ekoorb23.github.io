@@ -5,7 +5,7 @@ title: Reflowable ebook
 ![Cover photo](resources/IKS-portfolio-cover.jpg)
 
 ## About
-The hardcopy of this book was originally published in 2014. I was tasked with creating an ebook version for distribution as a free download. The ebook was designed in Adobe InDesign CC 2015, then tested on a variety of Android and iOS devices with users of varying technical skill, and took approx 30 hours in total. The ebook is available as a [reflowable EPUB and in PDF format](http://batchelorpress.com/node/290) from the publisher, [Batchelor Press](http://batchelorpress.com/).
+The hardcopy of this book was originally published in 2014. I was tasked with creating an ebook version for distribution as a free download. The ebook was designed in Adobe InDesign CC 2015, then tested on a variety of Android and iOS devices with users of varying technical skill, and took approx 30 hours in total. The ebook is available as a [reflowable EPUB and in PDF format](http://batchelorpress.com/node/290) from the publisher, [Batchelor Press](http://batchelorpress.com/). Reflowable eBooks are responsive (automatically adjust to different device sizes) and accessible (readers can change font size, colour, contrast etc to suit their needs, and easily use text-to-speech tools to read the book out loud).
 
 ### [View as PDF](resources/indigenous-kids-schooling-nt.pdf)
 
