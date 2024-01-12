@@ -21,4 +21,4 @@ This portfolio includes:
 * [RedSolution](redsolution) - a blood donation story
 
 ## Reflowable ebook
-* [Indigenous kids in schooling](IndigenousKids)
+* [Indigenous kids in schooling](IndigenousKids) -  a reflowable EPUB tested on Android and iOS devices
