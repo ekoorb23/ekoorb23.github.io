@@ -30,6 +30,7 @@ When run from an LMS, the SCORM reports these data to the LMS:
 * `cmi.core.lesson_status` – 'completed' or 'incomplete'
 
 ## Neural text-to-speech narration
-These modules are narrated using Microsoft Azure text-to-speech service. This is a natural sounding, neural text to-to-speech tool which allows pronunciation to be customised and corrected using the international phonetic alphabet (IPA). Learn how I've been using the IPA to correct the pronunciation of Aboriginal nations and languages, in this 30 minute demo video:
+
+This course is narrated using Microsoft Azure text-to-speech service. This is a natural sounding, neural text-to-speech tool which allows pronunciation to be customised and corrected using the international phonetic alphabet (IPA). Learn how I've been using the IPA to correct the pronunciation of Aboriginal nations and languages, in this 30 minute demo video:
 
 [![Microsoft Azure text-to-speech demonstration](../assets/images/AzureTTSDemo.jpg)](https://youtu.be/_KpkvwN8sdU?si=r5r8dFDCI376SGcd)
