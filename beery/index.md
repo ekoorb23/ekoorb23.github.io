@@ -24,7 +24,7 @@ The executive summary from the report is below:
 
 > "Promoting Beery’s online store and stimulating user-generated content among its brewery visitors – some of whom are first-time visitors and not part of Beery’s social media audience – could generate ongoing engagement with the brewery, exposure to new customers through earned media and sales outside of their restricted opening hours. Furthermore, enhancing the prominence of Beery’s perceived strengths and existing customer incentives may persuade disinterested potential customers to complete a purchase or become more involved with the brand."
 
-## [Download the full Beery's Brewing Co experience design strategy (13.6MB PDF)](Experience-design-strategy-Beerys-Brewing-Co.pdf)
+## [Download the full Beery's Brewing Co experience design strategy (13.6MB PDF)](resources/Experience-design-strategy-Beerys-Brewing-Co.pdf)
 
 [![Contents page for experience design strategy](resources/XD-strategy-contents-page.png)](resources/Experience-design-strategy-Beerys-Brewing-Co.pdf)
 
